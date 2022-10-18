@@ -24,10 +24,6 @@ function Widgets({ articles }) {
                 <h5 className="max-w-xs font-medium text-sm truncate pr-10">
                   {article.title}
                 </h5>
-                <TimeAgo
-                  datetime={article.publishedAt}
-                  className="text-xs mt-0.5 dark:text-white/75 opacity-80"
-                />
               </div>
             </div>
           ))}
