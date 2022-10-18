@@ -24,7 +24,7 @@ function Home({ providers }) {
             <HeaderLink Icon={ExploreIcon} text="Discover" />
             <HeaderLink Icon={GroupIcon} text="People" />
             <HeaderLink Icon={OndemandVideoSharpIcon} text="Learning" />
-            <HeaderLink Icon={BusinessCenterIcon} text="Hacking" />
+            <HeaderLink Icon={BusinessCenterIcon} text="Jobs" />
           </div>
 
           {Object.values(providers).map((provider) => (
@@ -49,23 +49,15 @@ function Home({ providers }) {
           </h1>
           <div className="space-y-4">
             <div className="intent">
-              <h2 className="text-xl">Search for Udemy Courses</h2>
+              <h2 className="text-xl">Search for a job</h2>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
             <div className="intent">
-              <h2 className="text-xl">Find the Course  you want</h2>
+              <h2 className="text-xl">Find a person you know</h2>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
             <div className="intent">
-              <h2 className="text-xl">Learn a New Skill</h2>
-              <ArrowForwardIosRoundedIcon className="text-gray-700" />
-            </div>
-            <div className="intent">
-              <h2 className="text-xl">Feel Free To Share With Your Colleagues</h2>
-              <ArrowForwardIosRoundedIcon className="text-gray-700" />
-            </div>
-            <div className="intent">
-              <h2 className="text-xl">Have A Good Day</h2>
+              <h2 className="text-xl">Learn a new skill</h2>
               <ArrowForwardIosRoundedIcon className="text-gray-700" />
             </div>
           </div>

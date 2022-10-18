@@ -79,7 +79,7 @@ export async function getServerSideProps(context) {
       articles: results.articles,
       posts: posts.map((post) => ({
         _id: post._id.toString(),
-        
+        input: post.input,
         photoUrl: post.photoUrl,
         username: post.username,
         email: post.email,
